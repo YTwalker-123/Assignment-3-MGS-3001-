@@ -3,7 +3,8 @@
 ## 1. Data Source
 This dataset comes from an online questionnaire experiment conducted through **Credamo**, an online survey platform.
 **Website:** Credamo  
-**URL:** https://www.credamo.com/
+**URL:** https://www.credamo.com/            
+**问卷链接**：https://www.credamo.com/s/VRRnEfano
 This project does not use a public website API or HTML scraping. Instead, the data were collected through a scenario-based survey experiment designed and distributed on the Credamo platform.
 
 ## 2. Collection Method
@@ -18,19 +19,16 @@ The four scenarios were:
 - Experimental Scenario 3: professional design team within the company × high added value
 - Experimental Scenario 4: professional design team within the company × low added value
 
-## 3. Collection Date and Time Period Covered
-**Collection date:** [Fill in your actual survey collection date here]  
-**Time period covered:** [Fill in the start and end date here, e.g., 2026-05-13 to 2026-05-14]
 
 The dataset is cross-sectional and reflects respondents’ answers collected during a single survey period.
 
-## 4. Number of Observations and Variables
+## 3. Number of Observations and Variables
 - **Number of observations (rows):** 212
 - **Number of variables (columns):** 21
 
 The cleaned dataset includes only valid survey responses used for later analysis.
 
-## 5. Variable Descriptions
+## 4. Variable Descriptions
 
 | Variable Name | Data Type | Description | Example Value |
 |---|---|---|---|
@@ -56,7 +54,7 @@ The cleaned dataset includes only valid survey responses used for later analysis
 | trust_score | numeric (float) | Composite trust score, calculated as the mean of `trust_1`, `trust_2`, and `trust_3` | 5.33 |
 | ai_familiarity | numeric (float) | Composite AI familiarity score, calculated as the mean of `fam_1`, `fam_2`, and `fam_3` | 3.67 |
 
-## 6. Data Cleaning and Preparation Notes
+## 5. Data Cleaning and Preparation Notes
 The raw questionnaire export required several cleaning steps before analysis:
 
 1. **Removed empty columns**  
@@ -79,7 +77,7 @@ The raw questionnaire export required several cleaning steps before analysis:
    - `trust_score`
    - `ai_familiarity`
 
-## 7. Known Data Quality Issues
+## 6. Known Data Quality Issues
 ### Raw data issues
 The raw questionnaire export contained the following issues:
 
@@ -96,7 +94,7 @@ After cleaning:
 
 This cleaned dataset is suitable for descriptive statistics, group comparison, and regression-based analysis.
 
-## 8. Notes for Analysis
+## 7. Notes for Analysis
 This dataset is structured for later hypothesis testing. The main variables map to the project hypotheses as follows:
 
 - **H1:** `design_source` → `wtp_open` / `wtp_score`
