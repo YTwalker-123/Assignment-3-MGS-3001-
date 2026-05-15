@@ -23,7 +23,7 @@ The dataset was collected through an online questionnaire experiment (from Creda
 The cleaned dataset is stored in: "问卷数据.csv"
 
 ## Repository Structure
-consumer-wtp-for-ai-designed-products/
+Assignment3-MGS3001/
 ├── README.md
 ├── data/
 │   └── 问卷数据.csv
