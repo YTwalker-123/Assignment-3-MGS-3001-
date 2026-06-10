@@ -37,7 +37,7 @@ The cleaned dataset includes only valid survey responses used for later analysis
 | shopping_freq | category / object | Frequency of online clothing shopping | 经常 |
 | ai_purchase | category / object | Whether the respondent has purchased AI-related products or services | 否 |
 | age_group | category / object | Respondent age group | 28-32 |
-| wtp_open | numeric (int) | Open-ended willingness to pay for the T-shirt in RMB | 121 |
+| wtp_open | numeric (int) | Open-ended willingness to pay for the T-shirt in RMB | 120 |
 | wtp_1 | numeric (int) | Likert item: willing to pay a higher price for the T-shirt | 5 |
 | wtp_2 | numeric (int) | Likert item: believes the T-shirt is worth the price | 6 |
 | trust_1 | numeric (int) | Likert item: design source is reliable | 6 |
@@ -99,6 +99,5 @@ This dataset is structured for later hypothesis testing. The main variables map 
 
 - **H1:** `design_source` → `wtp_open` / `wtp_score`
 - **H2:** `trust_score` → `wtp_open` / `wtp_score`
-- **H3a:** `design_source × ai_familiarity` → willingness to pay
-- **H3b:** `design_source` → `trust_score` → willingness to pay
+- **H3:** `design_source × ai_familiarity` → willingness to pay
 - **H4:** `design_source × added_value` → willingness to pay
